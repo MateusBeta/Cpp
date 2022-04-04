@@ -8,7 +8,7 @@ using std::string;
 class Operacoes{
     public:
         void cadastro(string nome, string senha, string email, string permissao){
-            cout << "Cadastro de usuário ralizado\n";
+            cout << "\nCadastro de usuário ralizado\n";
         }
         string login(string nome, string senha){
             return "\nSeja bem vindo!\n";
